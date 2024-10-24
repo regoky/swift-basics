@@ -5,7 +5,6 @@ print(greeting)
 
 
 
-
 var a:String = "dhdjhdh"
 print(a)
 
