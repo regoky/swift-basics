@@ -17,7 +17,7 @@ for (index, num) in someInts.enumerated() {
 
 let intsSet:Set<Int> = [1, 1, 2, 2, 3, 3, 4]
 
-print("======= iterating through a set of ints =========")
+print("======= iterating through a set of ints (iteration order is random) =========")
 for num in intsSet {
     print("my num in the set is \(num)")
 }
@@ -39,6 +39,11 @@ print("The values that are in both are \(set1.intersection(set2)) (intersection 
 print("All of the values from both are \(set1.union(set2)) (union of set1 & set2)")
 
 print("loops other than iterating through collections")
+
+print("0 to 10 with 0...10")
+for num in 0...10 {
+    print(num)
+}
 
 print("repeat while")
 
